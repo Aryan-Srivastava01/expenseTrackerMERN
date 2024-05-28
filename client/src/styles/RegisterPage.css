@@ -1,0 +1,64 @@
+.register-page {
+  position: relative;
+  height: 100vh !important;
+  width: 100vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+}
+
+
+.register-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://images.pexels.com/photos/4386339/pexels-photo-4386339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5; /* Adjust opacity as needed */
+  z-index: -1; /* Ensure the background is behind the content */
+}
+
+/* Other styles remain the same */
+.register-form {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  width: 30%;
+}
+
+.register-form h2 {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #344265;
+}
+
+.register-form a {
+  color: #344265 !important;
+}
+
+.register-form a:hover {
+  color: black !important;
+}
+
+.register-form button {
+  background-color: #344265;
+  color: white;
+}
+
+.register-form input:focus {
+  border: 1px solid #b87333 !important;
+  color: #344265;
+}
+
+.register-form button:hover {
+  background-color: black;
+  color: white;
+}
